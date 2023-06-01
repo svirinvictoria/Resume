@@ -12,7 +12,7 @@ function App() {
           
           <p className="name">Victoria Svirin</p>
           <div className="photo">
-            <img className='photo_img' src="https://media.licdn.com/dms/image/C5603AQHOZmDQ74Eo6Q/profile-displayphoto-shrink_100_100/0/1517477798361?e=1691020800&v=beta&t=5PAHWdsibP6eAIwEyfI8xASmMpQUvlYaXP0MolBZMm0" alt="Photo" />
+            <img className='photo_img' alt="" src="https://media.licdn.com/dms/image/C5603AQHOZmDQ74Eo6Q/profile-displayphoto-shrink_100_100/0/1517477798361?e=1691020800&v=beta&t=5PAHWdsibP6eAIwEyfI8xASmMpQUvlYaXP0MolBZMm0" />
           </div>
           <div>
 
