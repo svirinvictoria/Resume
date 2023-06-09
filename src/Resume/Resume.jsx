@@ -5,6 +5,8 @@ import right_arrow from '../images/right_arrow.png';
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useProxy } from "../hooks/useProxy";
+import foto from "../images/foto.jpg"
+import Topic from './Topic';
 
 
 
@@ -35,8 +37,8 @@ function Resume() {
         <div className="personal_data">
           
           <p className="name">{info.name}</p>
-          <div className="photo">
-            <img className='photo_img' alt="" src="https://media.licdn.com/dms/image/C5603AQHOZmDQ74Eo6Q/profile-displayphoto-shrink_100_100/0/1517477798361?e=1691020800&v=beta&t=5PAHWdsibP6eAIwEyfI8xASmMpQUvlYaXP0MolBZMm0" />
+          <div >
+            <img className='photo_img' alt="" src={foto} />
           </div>
           <div>
 
@@ -120,42 +122,19 @@ function Resume() {
         </p>
          
           <hr className='line'></hr>
-          <div className="exp-text">
-            <span>
-           {info.motivationText}
-            </span>
-          </div>  
+          <Topic description={info.motivationText}/>
           
         <div className='experience'> 
           <p className='heading heading_prof'>Professional Experience </p></div>
           <hr className='line'></hr>
-
-          <p className='heading_prof heading_org'>
-          {info.BiProfOrg}
-          </p>
-          <div className="exp-text">
-            <p>Vice Chair - Department of Music</p>
-             {info.BiProfDesc}
-          </div>
-       
-          <p className='heading_prof heading_org'>
-         {info.GenProfOrg}</p>
-          <div className="exp-text">
-            <p>{info.GenProfTitle}</p>
-          {info.GenProfDesc}
-          </div>
-       
-          <p className='heading_prof heading_org'>
-          {info.JafiProfOrg}
-          </p>
-          <div className="exp-text">
-            <p>{info.JafiProfTitle}</p>
-          {info.JafiProfDesc}
-          </div>
-
+          <Topic organization={info.BiProfOrg} title = {info.BiProfTitle} description ={info.BiProfDesc}/>
+          <Topic organization={info.GenProfOrg} title = {info.GenProfTitle} description ={info.GenProfDesc}/>
+          <Topic organization={info.JafiProfOrg} title = {info.JafiProfTitle} description ={info.JafiProfDesc}/>
+         
           <div className='experience'> 
           <p className='heading heading_prof'>{info.professionalCourses}</p></div>
           <hr className='line'></hr>
+          
           <p className='heading_prof heading_org'>{info.courses}</p>
             <div className='exp-text'>
               <img className='arrow_icon' src={right_arrow} alt="arrow" />
@@ -185,23 +164,10 @@ function Resume() {
       <div className='experience'> 
           <p className='heading heading_prof'>{info.educationTitle} </p>
           <hr className='line'></hr>
-          <p className='heading_prof heading_org'>
-         {info.universityTitle1}
-          </p>
-          <div className="exp-text">
-            <p className=' heading_org'>{info.MaDegree} </p>
-            <p>{info.MaDesc}</p>
-          </div>
+          <Topic organization={info.universityTitle1} title={info.MaDegree} description={info.MaDesc}/>
+          <Topic organization={info.universityTitle2} title={info.BaDegree} description={info.BaDesc}/>
+        
           
-          <p className='heading_prof heading_org'>
-          {info.universityTitle2}
-          </p>
-          <div className="exp-text">
-            <p className=' heading_org'>{info.BaDegree} </p>
-            <p>
-            {info.BaDesc}
-            </p>
-          </div>
        </div>    
         <footer>
         Svirin Victoria 2023
