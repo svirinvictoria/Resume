@@ -1,12 +1,18 @@
 import './Resume.css';
 import rating_4 from '../images/rating_4.png';
 import rating_5 from '../images/rating_5.png';
-import right_arrow from '../images/right_arrow.png';
+// import right_arrow from '../images/right_arrow.png';
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useProxy } from "../hooks/useProxy";
 import foto from "../images/foto.jpg"
 import Topic from './Topic';
+import CourseItem from "./CourseItem";
+import PersonalItem from "./PersonalItem";
+import flag_ger from "../images/favicon_flag_ger/favicon-16x16.png";
+import flag_eng from "../images/favicon_flag_eng/favicon-16x16.png";
+import flag_rus from "../images/favicon_flag_rus/favicon-16x16.png";
+import flag_isr from "../images/favicon_flag_isr/favicon-16x16.png"
 
 
 
@@ -18,17 +24,16 @@ function Resume() {
   const navigate = useNavigate();
 
   useEffect(()=>{
-    console.log(location.pathname);
     const personalInfo = proxy.renderPage(location.pathname);
     setInfo(personalInfo)
   }, [location.pathname]);
 
   function goToEnglishHandler(){
-    navigate("/")
+    navigate("/en")
   }
 
   function goToGermanHandler(){
-    navigate("/german")
+    navigate("/de")
   } 
 
   return (
@@ -77,7 +82,13 @@ function Resume() {
 
           <div className="info">
               <p className="heading">{info.languages}</p>
-              <div className='rating_home'>  
+             
+             <PersonalItem flag={flag_ger} lang={info.langGerm} rating = {rating_4}/>
+             <PersonalItem flag={flag_eng} lang={info.langEng} rating = {rating_4}/>
+             <PersonalItem flag={flag_rus} lang={info.langRus} rating = {rating_5}/>
+             <PersonalItem flag = {flag_isr} lang={info.langHeb} rating = {rating_5}/>
+             
+              {/* <div className='rating_home'>  
                 <div className='ger give_width'>
                   <span className='after_icon'>{info.langGerm}</span>
                   </div>
@@ -107,7 +118,7 @@ function Resume() {
                 <div> 
                   <img className='rating_star' src={rating_5} alt="5 stars" />
                 </div>
-              </div>
+              </div> */}
 
           </div>
           <hr className='line_left'></hr>
@@ -136,29 +147,13 @@ function Resume() {
           <hr className='line'></hr>
           
           <p className='heading_prof heading_org'>{info.courses}</p>
-            <div className='exp-text'>
-              <img className='arrow_icon' src={right_arrow} alt="arrow" />
-              <span >{info.courseReact}</span></div>
-            <div className='exp-text'> 
-              <img className='arrow_icon' src={right_arrow} alt="arrow" />
-              <span>{info.courseWeb}</span></div>
-            <div className=' exp-text'>
-              <img className='arrow_icon' src={right_arrow} alt="arrow" /> 
-              <span>{info.courseJS}</span>
-            </div>
-            <div className=' exp-text'>
-              <img className='arrow_icon' src={right_arrow} alt="arrow" /> 
-              <span>{info.courseES6}</span>
-            </div>
-            <div className=' exp-text'>
-              <img className='arrow_icon' src={right_arrow} alt="arrow" />
-              <span>{info.courseCss}</span></div>
-            <div className=' exp-text'>
-              <img className='arrow_icon' src={right_arrow} alt="arrow" />
-              <span>{info.courseAdvancedCss}</span></div>
-            <div className=' exp-text'>
-            <img className='arrow_icon' src={right_arrow} alt="arrow" />
-            <span>{info.courseHtml}</span></div>
+            <CourseItem courseName={info.courseReact} />
+            <CourseItem courseName={info.courseWeb} />
+            <CourseItem courseName={info.courseJS} />
+            <CourseItem courseName={info.courseES6} />
+            <CourseItem courseName={info.courseCss} />
+            <CourseItem courseName={info.courseAdvancedCss} />
+            <CourseItem courseName={info.courseHtml} />
       </div>
 
       <div className='experience'> 

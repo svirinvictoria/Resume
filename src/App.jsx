@@ -10,8 +10,8 @@ function App() {
     <div className='container'>
         <div>
           <Routes>
-            <Route path="/" Component={Resume}></Route>
-            <Route path="/german" Component={Resume}></Route>
+            <Route path="/en" Component={Resume}></Route>
+            <Route path="/de" Component={Resume}></Route>
           </Routes>
         </div>
       </div>

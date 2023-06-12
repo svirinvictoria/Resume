@@ -77,25 +77,7 @@ body, #root {
   flex-basis: 60%;
 }
 
-.heb::before{
-  content:url(../src/images/favicon_flag_isr/favicon-16x16.png);
-  position: relative;
-  top: 3px;
-}
-.ger::before{
-  content:url(../src/images/favicon_flag_ger/favicon-16x16.png);
-  position: relative;
-  top: 3px;
-}
-
-.rus::before{
-  content:url(../src/images/favicon_flag_rus/favicon-16x16.png);
-  position: relative;
-  top: 3px;
-}
-
-.eng::before{
-  content:url(../src/images/favicon_flag_eng/favicon-16x16.png);
+.flag_location{
   position: relative;
   top: 3px;
 }

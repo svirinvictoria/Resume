@@ -1,10 +1,10 @@
 
 export function useProxy (){
     function renderPage(currentPage){
-         if (currentPage === "/"){
+         if (currentPage === "/en"){
             const englishVersion = englishText();
             return englishVersion;
-         } else if (currentPage === "/german"){
+         } else if (currentPage === "/de"){
             const germanVersion = germanText();
             return germanVersion;
          }
