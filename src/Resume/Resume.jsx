@@ -8,7 +8,7 @@ import { useProxy } from "../hooks/useProxy";
 import foto from "../images/foto.jpg"
 import Topic from './Topic';
 import CourseItem from "./CourseItem";
-import PersonalItem from "./PersonalItem";
+import PersonalItem from "./Languages";
 import flag_ger from "../images/favicon_flag_ger/favicon-16x16.png";
 import flag_eng from "../images/favicon_flag_eng/favicon-16x16.png";
 import flag_rus from "../images/favicon_flag_rus/favicon-16x16.png";
@@ -42,15 +42,13 @@ function Resume() {
         <div className="personal_data">
           
           <p className="name">{info.name}</p>
-          <div >
-            <img className='photo_img' alt="" src={foto} />
-          </div>
-          <div>
-
-          </div>
-         
-          <div className="info">
-              <p className="heading">{info.personalTitel}</p>
+        
+          <div className='change_view'>
+            <div className='photo_frame'>
+              <img className='photo_img' alt="" src={foto} />
+            </div> 
+            <div className="info change_personal">
+              <p className="heading change_personal_title">{info.personalTitel}</p>
             
               <p className='house'>
               <span className='after_icon'>{info.address}</span></p>
@@ -58,8 +56,12 @@ function Resume() {
                 <span className='after_icon'>{info.mobile}</span></p>
               <p className='email'>
                 <span className='after_icon'>{info.email}</span>
-                </p>
+              </p>
           </div>
+
+          </div>
+         
+         
           <hr className='line_left'></hr>
 
           <div className="info">
@@ -87,38 +89,6 @@ function Resume() {
              <PersonalItem flag={flag_eng} lang={info.langEng} rating = {rating_4}/>
              <PersonalItem flag={flag_rus} lang={info.langRus} rating = {rating_5}/>
              <PersonalItem flag = {flag_isr} lang={info.langHeb} rating = {rating_5}/>
-             
-              {/* <div className='rating_home'>  
-                <div className='ger give_width'>
-                  <span className='after_icon'>{info.langGerm}</span>
-                  </div>
-                <div> 
-                  <img className='rating_star' src={rating_4} alt="4 stars" />
-                </div>
-              </div>
-              <div className='rating_home'>  
-                <div className='eng give_width'>
-                <span className='after_icon'>{info.langEng}</span></div>
-                <div> 
-                  <img className='rating_star' src={rating_4} alt="4 stars" />
-                </div>
-              </div>
-
-              <div className='rating_home'>  
-                <div className='rus give_width'>
-                <span className='after_icon'>{info.langRus}</span></div>
-                <div> 
-                  <img className='rating_star' src={rating_5} alt="5 stars" />
-                </div>
-              </div>
-              <div className='rating_home'>  
-                <div className='heb give_width'>
-                <span className='after_icon'>{info.langHeb}</span>
-                  </div>
-                <div> 
-                  <img className='rating_star' src={rating_5} alt="5 stars" />
-                </div>
-              </div> */}
 
           </div>
           <hr className='line_left'></hr>
@@ -165,11 +135,17 @@ function Resume() {
           
        </div>    
         <footer>
-        Svirin Victoria 2023
+          <div className='footer_style'>
+            <div className='copy'>
+              &copy; Svirin Victoria 2023
+            </div>
+             
         <div> <a href='https://favicon.io/'> Icons are taken from favicon</a>
          </div>
         <div><a href="https://www.flaticon.com/free-icons/rate" title="rate icons">Rate icons created by dmitri13 - Flaticon</a></div>
         <div><a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by Freepik - Flaticon</a></div>
+          </div>
+       
        </footer>
        </div>
       

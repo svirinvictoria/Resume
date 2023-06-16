@@ -86,7 +86,7 @@ const germanText =() =>{
             Kurzzeitprogrammen der Jewish Agency in Israel verantwortlich. Dazu gehörten vor
             allem Programme für Freiwilligenarbeit in IDF-Stützpunkten und professionelle
             Seminare für nicht-israelische Bürger. Gleichzeitig koordinierte und organisierte ich
-            &quot;Informationstage&quot; und &quot;Informationsforen&quot; für verschiedene Zielgruppen.
+           Informationstage und Informationsforen für verschiedene Zielgruppen.
             Eine organisatorische Arbeit umfasste logistische Aufträge, inhaltliche Vorbereitung,
             Partnerschaft mit Reiseleitern und Gruppenberatern sowie die Zusammenarbeit mit der
             IDF, israelischen Behörden und zahlreichen Niederlassungen der Jewish Agency in

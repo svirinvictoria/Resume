@@ -1,14 +1,18 @@
-body, #root {
+htm{
+  margin: 0;
+  padding: 0;
+}
+div#root{
+  padding: 0;
+}
+body  {
     width: 1200px;
-    padding-left: 5%;
-    margin-bottom: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 2rem auto;
     box-sizing: border-box;
+    font-size: 120%;
   }
   .container{
     display: flex;
-    
   }
   
   .description{
@@ -65,10 +69,6 @@ body, #root {
     position: relative;
     top: 4px;
   }
-  .html_logo{
-    background-color: transparent;
-    background-size:30%;
-  }
   
   .after_icon{
     padding-left: 4%;
@@ -78,11 +78,16 @@ body, #root {
     flex-basis: 60%;
   }
   
-  .langHeb::before{
-    content:url(../images/favicon_flag_isr/favicon-16x16.png);
-    position: relative;
-    top: 3px;
-  }
+.flag_location{
+  position: relative;
+  top: 3px;
+}
+
+.langHeb::before{
+  content:url(../images/favicon_flag_isr/favicon-16x16.png);
+  position: relative;
+  top: 3px;
+}
   .langGerm::before{
     content:url(../images/favicon_flag_ger/favicon-16x16.png);
     position: relative;
@@ -120,18 +125,16 @@ body, #root {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10%;
-   
-    
+    position: absolute;
+    top: 0.5%;
   }
   .btn-ger{
     background-image: url(../images/favicon_flag_ger/favicon.ico) ;
-    position: absolute;
-    right: 0;
+    right: 2rem;
   }
   .btn-eng{
     background-image: url(../images/favicon_flag_eng/favicon.ico);
-    position: absolute;
-    right: 4.5rem;
+    right: 6.5rem;
     
   }
   .heading_prof{
@@ -145,12 +148,13 @@ body, #root {
   .experience{
     padding-top: 2%;
   }
-  
+  .title-text{
+    font-weight: 700;
+  }
   .line{
     margin: 1.5rem;
     margin-bottom: 1.5rem;
     width:92%
-  
   }
   .line_left{
     margin: auto;
@@ -170,56 +174,185 @@ body, #root {
     top: 0.2rem;
   }
   
-  footer{
+  .footer_style{
     background-color:  rgb(17, 177, 226);
-    padding: 2rem;
+    padding: 1rem 3rem 1rem 1rem;
     color: whitesmoke;
     text-align: right;
-    font-size: 80%;
+    font-size: 90%;
   }
+  .copy{
+    padding-bottom: 1rem;
+    font-size: larger;
+    font-weight: 600;
+  }
+  
   
   footer a {
     color: whitesmoke;
     font-size: 60%;
+    font-style: italic;
+text-decoration: none;
   }
   
   /* ///////////////////////////////// */
+  /*BIG TABLET*/
+  
   @media screen and (max-width: 900px){
+    html{
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+    }
     body{
       margin: 0;
       padding: 0;
+      font-size: 110%;
     }
-    #root{
+    div#root{
       margin: 0;
       padding: 0;
     }
     
-    .container{
+    div.container{
       margin-top: 0;
       display: block;
-      padding-top: 10%;
+      padding-top: 0;
     }
     .personal_data{
       padding-top: 2%;
-      padding-bottom: 2%;
       font-size: 150%;
-  
     }
     .name{
       font-size: 180%;
     }
-    .photo{
-      width: 80%;
+    .change_view{
+      display: flex;
+      width: 100%;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+    .photo_frame{
+     padding-right: 3%;
+    }
+    .photo_img{
       height: 20rem;
+    }
+    .change_personal{
+      flex-basis: 50%;
+      padding-left: 6%;
+    }
+    /* .change_personal_title{
+      padding-left: 1.5%;
+    } */
+    .description{
+      font-size: 150%;
+    }
+    .btn{
+      top: 1rem;
+    }
+    .btn-ger{
+      right: 2rem;
+    }
+    .btn-eng{
+      right: 6.5rem;
+      
+    }
+    .footer_style{
+      text-align: center;
+      padding: 0.5rem;
+    }
+  }
+  /* /////////////////////////////////////// */
+/* SMALL TABLET */
+  @media screen and (max-width: 700px){
     
+    body{
+      font-size: 130%;
     }
     .description{
       font-size: 150%;
-  
     }
-    footer{
+    .footer_style{
       text-align: center;
+      padding: 1rem;
     }
-    
-    
+    .change_view{
+      flex-direction: row-reverse;
+      justify-content: space-about;
+    }
+    .photo_img{
+      margin-right: 20%;
+    }
   }
+  /* /////////////////////////////////////// */
+  /* MOBILE */
+@media screen and (max-width: 500px){
+  body, 
+  div#root {
+    font-size: 70%;
+    width: 100vw;     
+  }
+  div.container{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    position:relative;
+  }
+  div.personal_data{
+    width: 100vw;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+  p.name{
+    text-align:center;
+    font-size: 150%;
+  }
+  .change_view{
+    display: block;
+  }
+  img.photo_img{
+    width: 80%;
+    height: 80%;
+   margin-left: 8%;
+  }
+  div.info{
+    padding-left: 7%;
+    padding-bottom: 3%;
+  }
+  span.after_icon{
+    padding-left: 3%;
+  }
+  hr.line_left{
+    width:100%;
+    margin: 0;
+  }
+  hr.line{
+    width:100%;
+    margin: 0;
+    padding: 0%;
+  }
+  
+  p.heading_prof{
+    padding-left: 6%;
+    padding-top: 0;
+    width: 90vw;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  div.exp-text{
+    width: 85vw;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    text-align: left;
+    margin-left: 6%;
+  }
+  .footer_style {
+    width: 90vw;
+    font-size: 90%;
+    padding: 0.5rem 1rem;
+    text-align: start;
+  }
+}
