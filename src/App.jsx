@@ -3,10 +3,7 @@ import {Routes, Route, Navigate} from "react-router-dom";
 import Resume from "./Resume/Resume";
 import ErrorPage from './Resume/ErrorPage';
 
-
 function App() {
-
-
   return (
     <div className='container'>
         <div>
