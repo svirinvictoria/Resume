@@ -52,6 +52,8 @@ function Resume() {
               <span><a target='_blank' rel="noreferrer" className='personalLink' href={info.linkedin}>{info.linkedinTitle}</a></span>
             </p>
           </div>
+
+          <hr className='line_left'></hr>
           <div className="info change_personal">
             <p className="heading change_personal_title">{info.portfolioTitle}</p>
               {info && info.portfolio && info.portfolio.map(item => {
