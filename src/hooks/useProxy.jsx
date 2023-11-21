@@ -131,10 +131,11 @@ const englishText =() =>{
         personalTitel: "Personal",
         linkedin:"https://www.linkedin.com/in/victoria-svirin-3406546b/",
         linkedinTitle:"My Profile",
-        portfolioTitle: "Portfolio",
+       portfolioTitle: "Portfolio",
         portfolio: [
-            {title:"Vikiport", link: "https://vikiport-client.onrender.com/"},
-            {title:"Natours", link: "https://vika-natour-site.onrender.com/"}
+            {title:"Natours", link: "https://vika-natour-site.onrender.com/"},
+            {title:"Vikiphoto", link: "https://viki-photo-client.onrender.com/"},
+            {title:"Vikiport", link: "https://vikiport-client.onrender.com/"}
         ],
         progLanguages: "Programming Languages",
         html:"HTML",
