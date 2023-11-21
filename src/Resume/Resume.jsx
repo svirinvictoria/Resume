@@ -51,12 +51,20 @@ function Resume() {
               <span><img className="imgLink square" src={linkedin} alt='' /></span>
               <span><a target='_blank' rel="noreferrer" className='personalLink' href={info.linkedin}>{info.linkedinTitle}</a></span>
             </p>
-            <p className='personalSection'>
-              <span><img className="imgLink" src={folder} alt='' /></span>
-              <span><a target='_blank' rel="noreferrer" className='personalLink' href={info.portfolio}>{info.portfolioTitle}</a></span>
-            </p>
           </div>
-
+          <div className="info change_personal">
+            <p className="heading change_personal_title">{info.portfolioTitle}</p>
+              {info && info.portfolio && info.portfolio.map(item => {
+                return (
+                  <p className='personalSection'>
+                    <div>
+                      <span><img className="imgLink" src={folder} alt='' /></span>
+                      <span><a target='_blank' rel="noreferrer" className='personalLink' href={item.link}>{item.title}</a></span>
+                    </div>
+                  </p>
+                );
+              })}
+           </div>
         </div>
 
         <hr className='line_left'></hr>
