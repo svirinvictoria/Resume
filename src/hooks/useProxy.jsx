@@ -40,7 +40,7 @@ const germanText =() =>{
         langRus: "Russisch",
         langHeb: "Hebräisch",
         motivationTitle: "Motivation",
-        motivationText:`Ich habe entscheidet, meinen Beruf zum Softwareentwickler zu wechseln, da ich vor 2 Jahren mit
+        motivationText:`Ich habe entscheidet, meinen Beruf zum Softwareentwickler zu wechseln, da ich vor 3 Jahren mit
             meiner Familie aus Israel nach Deutschland gezogen bin. Während der Corona-Lockdowns habe ich
             die Möglichkeit zum Online-Lernen genutzt. Ich fing an, Softwareentwicklung zu lernen, basierend auf
             Web-Frontend-Technologien, mit den Kursen von Udemy.com. Ich habe bereits einige Projekte im
