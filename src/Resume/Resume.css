@@ -1,4 +1,4 @@
-htm {
+html {
   margin: 0;
   padding: 0;
 }
@@ -8,7 +8,7 @@ div#root {
 }
 
 body {
-  width: 1200px;
+  max-width: 75rem; 
   margin: 0 auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
@@ -19,17 +19,20 @@ body {
 
 .container {
   display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .description {
-  flex-basis: 75%;
+  flex:1;
   position: relative;
 }
 
 .personal_data {
-  background-color: rgb(17, 177, 226);
-  flex-basis: 25%;
-  padding-bottom: 5%;
+  /* background-color: rgb(17, 177, 226); */
+  background-image: linear-gradient(to bottom right, rgb(140, 201, 218), rgb(17, 177, 226)  );
+  flex:0 0 25%;
+  padding-bottom:5%;
 }
 
 .name {
@@ -66,10 +69,19 @@ body {
 .imgLink {
   height: 2rem;
   margin-right: 15px;
+  cursor: pointer;
+}
+
+.imgLink__footer {
+  height: 0.5rem;
+  cursor: pointer;
+  fill: white;
+  margin-right: 0.2rem;
+
 }
 
 .personalLink {
-  color: #000;
+  color: black;
   text-decoration: none;
 }
 
@@ -79,8 +91,19 @@ body {
   align-items: center
 }
 
+.technology {
+  display: flex;
+  flex-direction: row;
+}
+
+.techIcon {
+  height: 1rem;
+  margin-right: 15px;
+}
+
 .square {
   height: 2.5rem;
+  margin-bottom: -.4rem;
 }
 
 .linkedin {
@@ -130,6 +153,7 @@ body {
   border-radius: 10%;
   position: absolute;
   top: 0.5%;
+  cursor: pointer;
 }
 
 .btn-ger {
@@ -156,6 +180,7 @@ body {
 
 .experience {
   padding-top: 2%;
+  padding-right: 3%;
 }
 
 .title-text {
@@ -210,136 +235,35 @@ footer a {
   text-decoration: none;
 }
 
-/* ///////////////////////////////// */
-/*BIG TABLET*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   html {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-    font-size: 110%;
-  }
-
-  div#root {
-    margin: 0;
-    padding: 0;
-  }
-
-  div.container {
-    margin-top: 0;
-    display: block;
-    padding-top: 0;
-  }
-
-  .personal_data {
-    padding-top: 2%;
-    font-size: 150%;
-  }
-
-  .name {
-    font-size: 180%;
-  }
-
-  .change_view {
-    display: flex;
-    width: 100%;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-
-  }
-
-  .photo_frame {
-    padding-right: 3%;
-  }
-
-  .photo_img {
-    height: 20rem;
-  }
-
-  .change_personal {
-    flex-basis: 50%;
-    padding-left: 6%;
-  }
-
-  /* .change_personal_title{
-      padding-left: 1.5%;
-    } */
-  .description {
-    font-size: 150%;
-  }
-
-  .btn {
-    top: 1rem;
-  }
-
-  .btn-ger {
-    right: 2rem;
-  }
-
-  .btn-eng {
-    right: 6.5rem;
-
-  }
-
-  .footer_style {
-    text-align: center;
-    padding: 0.5rem;
+    font-size: 95%;
   }
 }
 
-/* /////////////////////////////////////// */
-/* SMALL TABLET */
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 90%;
+  }
+
+
+}
+
 @media screen and (max-width: 700px) {
-
-  body {
-    font-size: 130%;
-  }
-
-  .description {
-    font-size: 150%;
-  }
-
-  .footer_style {
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .change_view {
-    flex-direction: row-reverse;
-    justify-content: space-about;
-  }
-
-  .photo_img {
-    margin-right: 20%;
-  }
-}
-
-/* /////////////////////////////////////// */
-/* MOBILE */
-@media screen and (max-width: 500px) {
 
   body,
   div#root {
     font-size: 70%;
-    width: 100vw;
   }
 
   div.container {
     padding: 0;
     margin: 0;
-    width: 100vw;
-    position: relative;
+    flex-direction: column;
   }
 
   div.personal_data {
-    width: 100vw;
     font-size: 1.1rem;
     line-height: 1.6rem;
   }
@@ -369,7 +293,7 @@ footer a {
   }
 
   hr.line_left {
-    width: 100%;
+    width: 98%;
     margin: 0;
   }
 
@@ -382,13 +306,11 @@ footer a {
   p.heading_prof {
     padding-left: 6%;
     padding-top: 0;
-    width: 90vw;
     font-size: 1.2rem;
     line-height: 1.5rem;
   }
 
   div.exp-text {
-    width: 85vw;
     font-size: 1.1rem;
     line-height: 1.8rem;
     text-align: left;
@@ -396,7 +318,6 @@ footer a {
   }
 
   .footer_style {
-    width: 90vw;
     font-size: 90%;
     padding: 0.5rem 1rem;
     text-align: start;
