@@ -141,7 +141,7 @@ function Resume() {
             info.technology.map((tech) => {
               return (
                 <div className="technology">
-                  <div>
+                  <div className="techIconContainer">
                     <img
                       className="techIcon"
                       src={getTechnologyIcon(tech.icon)}

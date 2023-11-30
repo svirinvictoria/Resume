@@ -8,7 +8,7 @@ div#root {
 }
 
 body {
-  max-width: 75rem; 
+  max-width: 75rem;
   margin: 0 auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
@@ -24,15 +24,19 @@ body {
 }
 
 .description {
-  flex:1;
+  flex: 1;
   position: relative;
 }
 
 .personal_data {
   /* background-color: rgb(17, 177, 226); */
-  background-image: linear-gradient(to bottom right, rgb(140, 201, 218), rgb(17, 177, 226)  );
-  flex:0 0 25%;
-  padding-bottom:5%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(140, 201, 218),
+    rgb(17, 177, 226)
+  );
+  flex: 0 0 25%;
+  padding-bottom: 5%;
 }
 
 .name {
@@ -52,7 +56,6 @@ body {
 
 .photo_img {
   height: inherit;
-
 }
 
 .info {
@@ -77,7 +80,6 @@ body {
   cursor: pointer;
   fill: white;
   margin-right: 0.2rem;
-
 }
 
 .personalLink {
@@ -88,22 +90,29 @@ body {
 .personalSection {
   height: 2rem;
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .technology {
   display: flex;
   flex-direction: row;
+  height: 2.5rem;
+}
+
+.techIconContainer {
+  width: 2.3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .techIcon {
-  height: 1rem;
+  height: 1.8rem;
   margin-right: 15px;
 }
 
 .square {
   height: 2.5rem;
-  margin-bottom: -.4rem;
+  margin-bottom: -0.4rem;
 }
 
 .linkedin {
@@ -114,7 +123,6 @@ body {
 
 .after_icon {
   padding-left: 4%;
-
 }
 
 .give_width {
@@ -190,14 +198,14 @@ body {
 .line {
   margin: 1.5rem;
   margin-bottom: 1.5rem;
-  width: 92%
+  width: 92%;
 }
 
 .line_left {
   margin: auto;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
-  width: 85%
+  width: 85%;
 }
 
 .exp-text {
@@ -227,14 +235,12 @@ body {
   font-weight: 600;
 }
 
-
 footer a {
   color: whitesmoke;
   font-size: 60%;
   font-style: italic;
   text-decoration: none;
 }
-
 
 @media screen and (max-width: 1200px) {
   html {
@@ -246,12 +252,9 @@ footer a {
   html {
     font-size: 90%;
   }
-
-
 }
 
 @media screen and (max-width: 700px) {
-
   body,
   div#root {
     font-size: 70%;
