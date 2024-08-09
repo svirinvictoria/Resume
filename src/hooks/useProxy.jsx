@@ -19,10 +19,12 @@ const germanText = () => {
     linkedinTitle: "Mein Profil",
     portfolioTitle: "Portfolio",
     portfolio: [
+      { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
+      { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
+      { title: "Worldwise", link: "https://vika-worldwise-site.onrender.com/" },
+      { title: "Popcorn", link: "https://vika-popcorn-site.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
-      { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
-      { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
     ],
     progLanguages: "Technologien",
     technology: [
@@ -46,7 +48,7 @@ const germanText = () => {
     langRus: "Russisch",
     langHeb: "Hebräisch",
     motivationTitle: "Motivation",
-    motivationText: `Ich habe entscheidet, meinen Beruf zum Softwareentwickler zu wechseln, da ich vor 3 Jahren mit
+    motivationText: `Ich habe entscheidet, meinen Beruf zum Softwareentwickler zu wechseln, da ich in 2020 mit
             meiner Familie aus Israel nach Deutschland gezogen bin. Während der Corona-Lockdowns habe ich
             die Möglichkeit zum Online-Lernen genutzt. Ich fing an, Softwareentwicklung zu lernen, basierend auf
             Web-Frontend-Technologien, mit den Kursen von Udemy.com. Ich habe bereits einige Projekte im
@@ -141,10 +143,12 @@ const englishText = () => {
     linkedinTitle: "My Profile",
     portfolioTitle: "Portfolio",
     portfolio: [
+      { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
+      { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
+      { title: "Worldwise", link: "https://vika-worldwise-site.onrender.com/" },
+      { title: "Popcorn", link: "https://vika-popcorn-site.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
-      { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
-      { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
     ],
     progLanguages: "Technologies",
     technology: [
@@ -169,7 +173,7 @@ const englishText = () => {
     langHeb: "Hebrew",
     motivationTitle: "Motivation",
     motivationText: `I decided to change my profession to a software developer since I have relocated to Germany from
-            Israel with my family 3 years ago. During the Corona lockdowns, I have used the opportunity for
+            Israel with my family at 2020. During the Corona lockdowns, I have used the opportunity for
             online learning. I started to learn software development, based on web front-end technologies, using
             the courses of Udemy.com. I have already developed a couple of projects as part of my educational
             process and I would like to present them during the interview. I am a self-starter, organized and
