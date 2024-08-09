@@ -21,7 +21,7 @@ const germanText = () => {
     portfolio: [
       { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
       { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
-      { title: "Worldwise", link: "https://vika-worldwise-site.onrender.com/" },
+      // { title: "Worldwise", link: "https://vika-worldwise-site.onrender.com/" },
       { title: "Popcorn", link: "https://vika-popcorn-site.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
@@ -145,7 +145,7 @@ const englishText = () => {
     portfolio: [
       { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
       { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
-      { title: "Worldwise", link: "https://vika-worldwise-site.onrender.com/" },
+      // { title: "Worldwise", link: "https://vika-worldwise-site.onrender.com/" },
       { title: "Popcorn", link: "https://vika-popcorn-site.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
