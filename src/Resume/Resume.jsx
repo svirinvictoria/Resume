@@ -222,7 +222,11 @@ function Resume() {
           <hr className="line"></hr>
 
           <p className="heading_prof heading_org">{info.courses}</p>
+          <CourseItem courseName={info.courseReactAdvanced} />
+          <CourseItem courseName={info.courseReactComp} />
           <CourseItem courseName={info.courseReact} />
+          <CourseItem courseName={info.courseJsReact} />
+          <CourseItem courseName={info.courseJsAcc} />
           <CourseItem courseName={info.courseWeb} />
           <CourseItem courseName={info.courseJS} />
           <CourseItem courseName={info.courseES6} />

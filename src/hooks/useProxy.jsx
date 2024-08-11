@@ -19,12 +19,13 @@ const germanText = () => {
     linkedinTitle: "Mein Profil",
     portfolioTitle: "Portfolio",
     portfolio: [
-      { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
-      { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
-      // { title: "Worldwise", link: "https://vika-worldwise-site.onrender.com/" },
-      { title: "Popcorn", link: "https://vika-popcorn-site.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
+      { title: "Keeper", link: "https://vika-keeper-site.onrender.com/" },
+      { title: "Popcorn", link: "https://vika-popcorn-site.onrender.com/" },
+
+      // { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
+      // { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
     ],
     progLanguages: "Technologien",
     technology: [
@@ -109,7 +110,12 @@ const germanText = () => {
             und Systeme verantwortlich, darunter ERP-, CMS-, MS- und Office-Programme.`,
     professionalCourses: "Professionelle Kurse und Fähigkeiten ",
     courses: "Kurse und Zertifikate",
+    courseReactAdvanced:
+      "The Ultimate React Course 2024: React, Next.js, Redux & More",
     courseReact: "React- The Complete Guide",
+    courseReactComp: "Your Custom React Component",
+    courseJsReact: "The Complete JS + React - from Zero to Expert",
+    courseJsAcc: "Accelerated JavaScript Training",
     courseWeb: "The Complete 2023 Web Development Bootcamp",
     courseJS: "Accelerated ES6 JavaScript Training",
     courseES6: "The Complete JavaScript Course 2022: From Zero to Expert!",
@@ -143,12 +149,12 @@ const englishText = () => {
     linkedinTitle: "My Profile",
     portfolioTitle: "Portfolio",
     portfolio: [
-      { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
-      { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
-      // { title: "Worldwise", link: "https://vika-worldwise-site.onrender.com/" },
-      { title: "Popcorn", link: "https://vika-popcorn-site.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
+      { title: "Keeper", link: "https://vika-keeper-site.onrender.com/" },
+      { title: "Popcorn", link: "https://vika-popcorn-site.onrender.com/" },
+      // { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
+      // { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
     ],
     progLanguages: "Technologies",
     technology: [
@@ -225,9 +231,14 @@ const englishText = () => {
             numerous Jewish Agency branches in Israel and abroad.
             I was also in charge of documentation preparation based on different programs and
             systems including ERP, CMS, MS and Office programs.`,
-    professionalCourses: "Professional Courses and skills ",
-    courses: "Courses and certificates",
+    professionalCourses: "Professional Courses and Skills ",
+    courses: "Kurse und Zertifikate",
+    courseReactAdvanced:
+      "The Ultimate React Course 2024: React, Next.js, Redux & More",
     courseReact: "React- The Complete Guide",
+    courseReactComp: "Your Custom React Component",
+    courseJsReact: "The Complete JS + React - from Zero to Expert",
+    courseJsAcc: "Accelerated JavaScript Training",
     courseWeb: "The Complete 2023 Web Development Bootcamp",
     courseJS: "Accelerated ES6 JavaScript Training",
     courseES6: "The Complete JavaScript Course 2022: From Zero to Expert!",
