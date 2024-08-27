@@ -19,10 +19,10 @@ const germanText = () => {
     linkedinTitle: "Mein Profil",
     portfolioTitle: "Portfolio",
     portfolio: [
+      { title: "Keeper", link: "https://keeper-2ekg.onrender.com/" },
+      { title: "Popcorn", link: "https://popcorn-1720.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
-      { title: "Keeper", link: "https://vika-keeper-site.onrender.com/" },
-      { title: "Popcorn", link: "https://vika-popcorn-site.onrender.com/" },
 
       // { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
       // { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
@@ -117,6 +117,7 @@ const germanText = () => {
     courseJsReact: "The Complete JS + React - from Zero to Expert",
     courseJsAcc: "Accelerated JavaScript Training",
     courseWeb: "The Complete 2023 Web Development Bootcamp",
+    courseDesign: "Web Design for Web developers: Build Beautiful Websites",
     courseJS: "Accelerated ES6 JavaScript Training",
     courseES6: "The Complete JavaScript Course 2022: From Zero to Expert!",
     courseCss: " CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)",
@@ -149,10 +150,12 @@ const englishText = () => {
     linkedinTitle: "My Profile",
     portfolioTitle: "Portfolio",
     portfolio: [
+      { title: "Keeper", link: "https://keeper-2ekg.onrender.com/" },
+      { title: "Popcorn", link: "https://popcorn-1720.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
-      { title: "Keeper", link: "https://vika-keeper-site.onrender.com/" },
-      { title: "Popcorn", link: "https://vika-popcorn-site.onrender.com/" },
+      // { title: "Pups Shop", link: "https://pups-shop-project.onrender.com/" },
+
       // { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
       // { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
     ],
@@ -240,6 +243,7 @@ const englishText = () => {
     courseJsReact: "The Complete JS + React - from Zero to Expert",
     courseJsAcc: "Accelerated JavaScript Training",
     courseWeb: "The Complete 2023 Web Development Bootcamp",
+    courseDesign: "Web Design for Web developers: Build Beautiful Websites",
     courseJS: "Accelerated ES6 JavaScript Training",
     courseES6: "The Complete JavaScript Course 2022: From Zero to Expert!",
     courseCss: " CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)",

@@ -228,6 +228,7 @@ function Resume() {
           <CourseItem courseName={info.courseJsReact} />
           <CourseItem courseName={info.courseJsAcc} />
           <CourseItem courseName={info.courseWeb} />
+          <CourseItem courseName={info.courseDesign} />
           <CourseItem courseName={info.courseJS} />
           <CourseItem courseName={info.courseES6} />
           <CourseItem courseName={info.courseCss} />
