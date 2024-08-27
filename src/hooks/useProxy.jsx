@@ -20,10 +20,10 @@ const germanText = () => {
     portfolioTitle: "Portfolio",
     portfolio: [
       { title: "Keeper", link: "https://keeper-2ekg.onrender.com/" },
-      { title: "Popcorn", link: "https://popcorn-1720.onrender.com/" },
+      { title: "Popcorn", link: "https://popcorn-l720.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
-      { title: "Pups Shop", link: "https://pups-shop-project.onrender.com/" },
+      // { title: "Pups Shop", link: "https://pups-shop-project.onrender.com/" },
       // { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
       // { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
     ],
@@ -154,10 +154,10 @@ const englishText = () => {
     portfolioTitle: "Portfolio",
     portfolio: [
       { title: "Keeper", link: "https://keeper-2ekg.onrender.com/" },
-      { title: "Popcorn", link: "https://popcorn-1720.onrender.com/" },
+      { title: "Popcorn", link: "https://popcorn-l720.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
-      { title: "Pups Shop", link: "https://pups-shop-project.onrender.com/" },
+      // { title: "Pups Shop", link: "https://pups-shop-project.onrender.com/" },
 
       // { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
       // { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
