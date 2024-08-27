@@ -19,10 +19,13 @@ const germanText = () => {
     linkedinTitle: "Mein Profil",
     portfolioTitle: "Portfolio",
     portfolio: [
+      { title: "Keeper", link: "https://keeper-2ekg.onrender.com/" },
+      { title: "Popcorn", link: "https://popcorn-1720.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
-      { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
-      { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
+      { title: "Pups Shop", link: "https://pups-shop-project.onrender.com/" },
+      // { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
+      // { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
     ],
     progLanguages: "Technologien",
     technology: [
@@ -46,7 +49,7 @@ const germanText = () => {
     langRus: "Russisch",
     langHeb: "Hebräisch",
     motivationTitle: "Motivation",
-    motivationText: `Ich habe entscheidet, meinen Beruf zum Softwareentwickler zu wechseln, da ich vor 3 Jahren mit
+    motivationText: `Ich habe entscheidet, meinen Beruf zum Softwareentwickler zu wechseln, da ich in 2020 mit
             meiner Familie aus Israel nach Deutschland gezogen bin. Während der Corona-Lockdowns habe ich
             die Möglichkeit zum Online-Lernen genutzt. Ich fing an, Softwareentwicklung zu lernen, basierend auf
             Web-Frontend-Technologien, mit den Kursen von Udemy.com. Ich habe bereits einige Projekte im
@@ -107,13 +110,22 @@ const germanText = () => {
             und Systeme verantwortlich, darunter ERP-, CMS-, MS- und Office-Programme.`,
     professionalCourses: "Professionelle Kurse und Fähigkeiten ",
     courses: "Kurse und Zertifikate",
+    courseReactAdvanced: "The Ultimate React Course 2024",
     courseReact: "React- The Complete Guide",
+    courseReactComp: "Your Custom React Component",
+    courseJsReact: "The Complete JS + React - from Zero to Result",
+    courseJS3: "Accelerated ES6 JavaScript Training",
+    courseDesign: "Web Design for Web developers: Build Beautiful Websites",
     courseWeb: "The Complete 2023 Web Development Bootcamp",
-    courseJS: "Accelerated ES6 JavaScript Training",
-    courseES6: "The Complete JavaScript Course 2022: From Zero to Expert!",
+    courseJS2: "The Complete JavaScript Course 2022: From Zero to Expert!",
+    courseJS1: "Intensive diving into JavaScript ",
     courseCss: " CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)",
     courseAdvancedCss:
       "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+    courseCSSGrid: "CSS Grid ",
+    courseFlexbox2: "FlexBox in HTML and CSS  ",
+    courseFlexbox: "CSS FlexBox – the full Course ",
+    courseHTML2: "HTML Basic Course from Web Atom ",
     courseHtml: "HTML & CSS Course for the beginners",
     educationTitle: "Ausbildung",
     universityTitle1: " The Hebrew University, Jerusalem, Israel ||  2002-2005",
@@ -141,10 +153,14 @@ const englishText = () => {
     linkedinTitle: "My Profile",
     portfolioTitle: "Portfolio",
     portfolio: [
+      { title: "Keeper", link: "https://keeper-2ekg.onrender.com/" },
+      { title: "Popcorn", link: "https://popcorn-1720.onrender.com/" },
       { title: "Trillo", link: "https://vika-trillo-booking.onrender.com/" },
       { title: "Natours", link: "https://vika-natour-site.onrender.com/" },
-      { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
-      { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
+      { title: "Pups Shop", link: "https://pups-shop-project.onrender.com/" },
+
+      // { title: "Vikiport", link: "https://vikiport-client.onrender.com/" },
+      // { title: "Vikiphoto", link: "https://viki-photo-client.onrender.com/" },
     ],
     progLanguages: "Technologies",
     technology: [
@@ -169,7 +185,7 @@ const englishText = () => {
     langHeb: "Hebrew",
     motivationTitle: "Motivation",
     motivationText: `I decided to change my profession to a software developer since I have relocated to Germany from
-            Israel with my family 3 years ago. During the Corona lockdowns, I have used the opportunity for
+            Israel with my family at 2020. During the Corona lockdowns, I have used the opportunity for
             online learning. I started to learn software development, based on web front-end technologies, using
             the courses of Udemy.com. I have already developed a couple of projects as part of my educational
             process and I would like to present them during the interview. I am a self-starter, organized and
@@ -221,15 +237,24 @@ const englishText = () => {
             numerous Jewish Agency branches in Israel and abroad.
             I was also in charge of documentation preparation based on different programs and
             systems including ERP, CMS, MS and Office programs.`,
-    professionalCourses: "Professional Courses and skills ",
-    courses: "Courses and certificates",
+    professionalCourses: "Professional Courses and Skills ",
+    courses: "Kurse und Zertifikate",
+    courseReactAdvanced: "The Ultimate React Course 2024",
     courseReact: "React- The Complete Guide",
+    courseReactComp: "Your Custom React Component",
+    courseJsReact: "The Complete JS + React - from Zero to Result",
+    courseJS3: "Accelerated ES6 JavaScript Training",
+    courseDesign: "Web Design for Web developers: Build Beautiful Websites",
     courseWeb: "The Complete 2023 Web Development Bootcamp",
-    courseJS: "Accelerated ES6 JavaScript Training",
-    courseES6: "The Complete JavaScript Course 2022: From Zero to Expert!",
+    courseJS2: "The Complete JavaScript Course 2022: From Zero to Expert!",
+    courseJS1: "Intensive diving into JavaScript ",
     courseCss: " CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)",
     courseAdvancedCss:
       "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+    courseCSSGrid: "CSS Grid ",
+    courseFlexbox2: "FlexBox in HTML and CSS  ",
+    courseFlexbox: "CSS FlexBox – the full Course ",
+    courseHTML2: "HTML Basic Course from Web Atom ",
     courseHtml: "HTML & CSS Course for the beginners",
     educationTitle: "Education",
     universityTitle1: " The Hebrew University, Jerusalem, Israel ||  2002-2005",
