@@ -223,16 +223,21 @@ function Resume() {
 
           <p className="heading_prof heading_org">{info.courses}</p>
           <CourseItem courseName={info.courseReactAdvanced} />
+          <CourseItem courseName={info.courseReact} />
           <CourseItem courseName={info.courseReactComp} />
           <CourseItem courseName={info.courseReact} />
           <CourseItem courseName={info.courseJsReact} />
-          <CourseItem courseName={info.courseJsAcc} />
-          <CourseItem courseName={info.courseWeb} />
           <CourseItem courseName={info.courseDesign} />
-          <CourseItem courseName={info.courseJS} />
-          <CourseItem courseName={info.courseES6} />
+          <CourseItem courseName={info.courseWeb} />
+          <CourseItem courseName={info.courseJS3} />
+          <CourseItem courseName={info.courseJS2} />
+          <CourseItem courseName={info.courseJS1} />
           <CourseItem courseName={info.courseCss} />
           <CourseItem courseName={info.courseAdvancedCss} />
+          <CourseItem courseName={info.courseCSSGrid} />
+          <CourseItem courseName={info.courseFlexbox2} />
+          <CourseItem courseName={info.courseFlexbox} />
+          <CourseItem courseName={info.courseHTML2} />
           <CourseItem courseName={info.courseHtml} />
         </div>
 
